@@ -1,0 +1,19 @@
+{
+    "name": "richbarrett/amazon-ses-wrapper",
+    "description": "Makes sending emails with Amazon SES easier",
+    "authors": [
+        {
+            "name": "Richard Barrett",
+            "email": "rich@parcelmonkey.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "2.8.27",
+        "phpmailer/phpmailer": "^5.2"
+    },
+    "autoload": {
+    		"classmap": [
+    		"src/AmazonSESWrapper.php"
+    	]
+    }
+}
